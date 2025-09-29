@@ -5,7 +5,7 @@ INPUT_DIR=tests
 BIN_DIR=bin
 
 mkdir -p $BIN_DIR
-javac -d $BIN_DIR src/*.java
+javac -d $BIN_DIR alg/*.java
 
 for infile in $INPUT_DIR/*.in; do
     base=$(basename "$infile" .in)
